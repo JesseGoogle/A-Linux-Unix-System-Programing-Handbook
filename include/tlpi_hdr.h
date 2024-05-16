@@ -11,6 +11,7 @@
 
 #include "./getNum.h"
 #include "./errorFunctions.h"
+#include "./fileState.h"
 
 typedef enum { FALSE, TRUE } Boolean;
 
