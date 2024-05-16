@@ -32,7 +32,8 @@
         "string.h": "c",
         "errno.h": "c",
         "stdio.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "stdarg.h": "c"
     },
     "cmake.configureOnOpen": true
 }
