@@ -9,10 +9,11 @@
  *  @brief            这个函数可以打印不同风格的分割线
  *  @param __len      分割线的长度
  *  @param __style    分割线的风格，如（------- ****** 或 ·········）
+ *  @param __fd       文件描述符，指明要发送的文件
  *  
  *  @return           non-return 
 */
-void printSplitLine(int __len, const char __style, FILE * __outFp);
+void printSplitLine(size_t __len, const char __style, const int __fd);
 
 /**
  * @brief 用于诊断系统调用发生的错误，
