@@ -1,0 +1,1190 @@
+[14:22:40] [main/INFO]: Loading tweak class name optifine.OptiFineTweaker
+[14:22:40] [main/INFO]: Using primary tweak class name optifine.OptiFineTweaker
+[14:22:40] [main/INFO]: Calling tweak class optifine.OptiFineTweaker
+[14:22:40] [main/INFO]: [OptiFine] OptiFineTweaker: acceptOptions
+[14:22:40] [main/INFO]: [OptiFine] OptiFineTweaker: injectIntoClassLoader
+[14:22:40] [main/INFO]: [OptiFine] OptiFine ClassTransformer
+[14:22:40] [main/INFO]: [OptiFine] OptiFine ZIP file: C:\Users\Jesse\OneDrive\桌面\.minecraft\libraries\optifine\OptiFine\1.20.1_HD_U_I6\OptiFine-1.20.1_HD_U_I6.jar
+[14:22:40] [main/INFO]: [OptiFine] OptiFineTweaker: getLaunchArguments
+[14:22:40] [main/INFO]: [OptiFine] OptiFineTweaker: getLaunchTarget
+[14:22:40] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+2024-05-17 14:22:40,340 main WARN Error parsing URI C:\Users\Jesse\OneDrive\桌面\.minecraft\versions\1.20.1\log4j2.xml
+[14:22:41] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[14:22:41] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.eventbus.api.Event$Result
+[14:22:41] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeEntity.canUpdate
+[14:22:41] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.logging.CrashReportExtender
+[14:22:42] [main/INFO]: [OptiFine] (Reflector) Method not present: ane.create
+[14:22:43] [Datafixer Bootstrap/INFO]: 188 Datafixer optimizations took 102 milliseconds
+[14:22:44] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
+[14:22:44] [Render thread/INFO]: [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[14:22:44] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:22:45] [Render thread/INFO]: Setting user: Jesse_EC
+[14:22:45] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.settings.KeyConflictContext
+[14:22:45] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: enl.getKeyModifier
+[14:22:45] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.forge.snapshots.ForgeSnapshotsMod
+[14:22:45] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.versions.forge.ForgeVersion
+[14:22:45] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 build 7
+[14:22:45] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.internal.BrandingControl
+[14:22:45] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.loading.ImmediateWindowHandler
+[14:22:46] [Render thread/WARN]: [OptiFine] (Reflector) java.lang.ClassNotFoundException: sun.misc.SharedSecrets
+[14:22:46] [Render thread/WARN]: [OptiFine] (Reflector) java.lang.ClassNotFoundException: jdk.internal.misc.SharedSecrets
+[14:22:46] [Render thread/WARN]: [OptiFine] (Reflector) java.lang.ClassNotFoundException: sun.misc.VM
+[14:22:46] [Render thread/WARN]: [OptiFine] (Reflector) java.lang.reflect.InaccessibleObjectException: Unable to make public static long jdk.internal.misc.VM.maxDirectMemory() accessible: module java.base does not "exports jdk.internal.misc" to unnamed module @29c76aad
+[14:22:46] [Render thread/INFO]: [OptiFine] 
+[14:22:46] [Render thread/INFO]: [OptiFine] OptiFine_1.20.1_HD_U_I6
+[14:22:46] [Render thread/INFO]: [OptiFine] Build: 20231221-120401
+[14:22:46] [Render thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[14:22:46] [Render thread/INFO]: [OptiFine] Java: 20.0.2, Oracle Corporation
+[14:22:46] [Render thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+[14:22:46] [Render thread/INFO]: [OptiFine] LWJGL: 3.4.0 Win32 WGL Null EGL OSMesa VisualC DLL
+[14:22:46] [Render thread/INFO]: [OptiFine] OpenGL: NVIDIA GeForce RTX 4060 Ti/PCIe/SSE2, version 3.2.0 NVIDIA 552.44, NVIDIA Corporation
+[14:22:46] [Render thread/INFO]: [OptiFine] OpenGL Version: 3.2.0
+[14:22:46] [Render thread/INFO]: [OptiFine] Maximum texture size: 32768x32768
+[14:22:46] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[14:22:46] [Render thread/INFO]: [Shaders] OpenGL Version: 3.2.0 NVIDIA 552.44
+[14:22:46] [Render thread/INFO]: [Shaders] Vendor:  NVIDIA Corporation
+[14:22:46] [Render thread/INFO]: [Shaders] Renderer: NVIDIA GeForce RTX 4060 Ti/PCIe/SSE2
+[14:22:46] [Render thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  - 
+[14:22:46] [Render thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[14:22:46] [Render thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS: 8
+[14:22:46] [Render thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[14:22:46] [Render thread/INFO]: [Shaders] Load shaders configuration.
+[14:22:46] [Render thread/INFO]: [Shaders] Loaded shaderpack: photon-main.zip
+[14:22:46] [Render thread/INFO]: [OptiFine] [Shaders] Worlds: -1, 0, 1
+[14:22:46] [Render thread/WARN]: [OptiFine] Ambiguous shader option: combined_depth_buffer
+[14:22:46] [Render thread/WARN]: [OptiFine]  - in world-1/gbuffers_textured.vsh: colortex15
+[14:22:46] [Render thread/WARN]: [OptiFine]  - in world-1/gbuffers_textured.vsh: depthtex1
+[14:22:46] [Render thread/WARN]: [OptiFine] Ambiguous shader option: flat_normal
+[14:22:46] [Render thread/WARN]: [OptiFine]  - in world-1/gbuffers_textured.vsh, world-1/gbuffers_textured.fsh: normal
+[14:22:46] [Render thread/WARN]: [OptiFine]  - in world-1/gbuffers_terrain.vsh: particle_normal
+[14:22:46] [Render thread/WARN]: [OptiFine] Ambiguous shader option: detailed_normal
+[14:22:46] [Render thread/WARN]: [OptiFine]  - in world-1/gbuffers_terrain.vsh: particle_normal
+[14:22:46] [Render thread/WARN]: [OptiFine]  - in world-1/gbuffers_terrain.vsh: normal
+[14:22:47] [VersionCheck/INFO]: [OptiFine] java.io.FileNotFoundException: http://optifine.net/version/1.20.1/HD_U.txt
+[14:22:47] [Render thread/WARN]: [OptiFine] Ambiguous shader option: clouds_checkerboard_offsets
+[14:22:47] [Render thread/WARN]: [OptiFine]  - in world-1/deferred1.vsh: checkerboard_offsets_2x2
+[14:22:47] [Render thread/WARN]: [OptiFine]  - in world-1/deferred1.vsh: checkerboard_offsets_3x3
+[14:22:48] [Render thread/WARN]: [OptiFine] Ambiguous shader option: NOISE_3D
+[14:22:48] [Render thread/WARN]: [OptiFine]  - in world-1/composite.vsh: colortex6
+[14:22:48] [Render thread/WARN]: [OptiFine]  - in world-1/composite.vsh: colortex0
+[14:22:48] [Render thread/WARN]: [OptiFine] Ambiguous shader option: SRC_SAMPLER
+[14:22:48] [Render thread/WARN]: [OptiFine]  - in world-1/composite5.vsh: colortex5
+[14:22:48] [Render thread/WARN]: [OptiFine]  - in world-1/composite5.vsh: colortex0
+[14:22:48] [Render thread/WARN]: [OptiFine] Ambiguous shader option: BLOOM_TILE_INDEX
+[14:22:48] [Render thread/WARN]: [OptiFine]  - in world-1/composite5.vsh, world-1/composite5.fsh: 0
+[14:22:48] [Render thread/WARN]: [OptiFine]  - in world-1/composite6.vsh: 1
+[14:22:52] [Render thread/WARN]: [OptiFine] Unknown macro value: CLOUDS_TEMPORAL_UPSCALING
+[14:22:52] [Render thread/WARN]: [OptiFine] Unknown macro value: CLOUDS_TEMPORAL_UPSCALING
+[14:22:52] [Render thread/WARN]: [OptiFine] Unknown macro value: CLOUDS_TEMPORAL_UPSCALING
+[14:22:52] [Render thread/WARN]: [OptiFine] Unknown macro value: CLOUDS_TEMPORAL_UPSCALING
+[14:22:52] [Render thread/WARN]: [OptiFine] Unknown macro value: VOXEL_VOLUME_SIZE
+[14:22:52] [Render thread/WARN]: [OptiFine] Unknown macro value: VOXEL_VOLUME_SIZE
+[14:22:52] [Render thread/WARN]: [OptiFine] Unknown macro value: VOXEL_VOLUME_SIZE
+[14:22:52] [Render thread/WARN]: [OptiFine] Unknown macro value: VOXEL_VOLUME_SIZE
+[14:22:52] [Render thread/WARN]: [OptiFine] Invalid shader option: CLOUDS_CUMULUS_CONGESTUS_PRIMARY_STEPS_H
+[14:22:52] [Render thread/WARN]: [OptiFine] Invalid shader option: CLOUDS_CUMULUS_CONGESTUS_PRIMARY_STEPS_Z
+[14:22:52] [Render thread/WARN]: [OptiFine] Invalid shader option: <empty>
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid option: LIGHTNING_FLASH, key: screen.light_sources
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid option: CLOUDS_CUMULUS_CONGESTUS_PRIMARY_STEPS_H, key: screen.clouds_cumulus_congestus
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid option: CLOUDS_CUMULUS_CONGESTUS_PRIMARY_STEPS_Z, key: screen.clouds_cumulus_congestus
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid option: NOISE_ON_DH_TERRAIN, key: screen.misc
+[14:22:52] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.ModList
+[14:22:52] [Render thread/INFO]: [OptiFine] [Shaders] Parsing block mappings: /shaders/block.properties
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:short_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:dune_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:dead_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:desert_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:sprout
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:bush
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:mycelium_sprouts
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:blue_pickerelweed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:purple_pickerelweed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:beach_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:clover_patch
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:flower_patch
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:horseweed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:prairie_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:reeds
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:short_beach_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:short_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:tall_prairie_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:weed_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:wilted_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:winter_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecotones:clover
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecotones:reeds
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecotones:sandy_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecotones:short_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:dead_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:sakura_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:tall_cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wildworld:acacia_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wildworld:birch_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wildworld:dark_oak_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wildworld:jungle_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wildworld:oak_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wildworld:spruce_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: desolation:scorched_tuft
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:rose
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:violet
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:lavender
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:wildflower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:orange_cosmos
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:pink_daffodil
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:pink_hibiscus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:glowflower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:wilted_lily
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:burning_blossom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:rosewood_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:morado_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:yucca_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:kousa_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:aspen_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:grimwood_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:warm_monkey_brush
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:hot_monkey_brush
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:scalding_monkey_brush
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:yucca_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:gilia
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: autumnity:red_maple_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: autumnity:orange_maple_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: autumnity:yellow_maple_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: autumnity:maple_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: autumnity:autumn_crocus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: earthmobsmod:buttercup
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:willow_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:cherry_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:pink_wisteria_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:blue_wisteria_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:purple_wisteria_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:white_wisteria_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:wild_cabbages
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:wild_onions
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:wild_tomatoes
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:wild_carrots
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:wild_potatoes
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:wild_beetroots
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: neapolitan:small_banana_frond
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: neapolitan:banana_frond
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: neapolitan:large_banana_frond
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:river_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:beachgrass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:white_searocket
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:pink_searocket
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:cartwheel
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:bluebell
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:violet
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:dianthus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:red_lotus_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:white_lotus_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:yellow_hibiscus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:orange_hibiscus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:red_hibiscus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:pink_hibiscus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:magenta_hibiscus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:purple_hibiscus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: buzzier_bees:buttercup
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: buzzier_bees:white_clover
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: buzzier_bees:pink_clover
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: neapolitan:strawberry_pips
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:origin_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:flowering_oak_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:rainbow_birch_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:yellow_autumn_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:orange_autumn_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:maple_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:fir_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:redwood_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:white_cherry_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:pink_cherry_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:mahogany_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:jacaranda_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:palm_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:willow_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:dead_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:magic_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:umbran_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:hellbark_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: astralsorcery:glow_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:white_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:gray_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:orange_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:magenta_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:light_blue_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:light_gray_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:yellow_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:lime_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:pink_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:cyan_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:purple_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:blue_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:brown_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:green_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:red_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:black_mystical_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:white_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:orange_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:magenta_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:light_blue_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:yellow_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:lime_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:pink_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:gray_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:light_gray_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:cyan_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:purple_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:blue_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:brown_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:green_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:red_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:black_mushroom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:hydroangeas
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:manastar
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:pure_daisy
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:endoflame
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:thermalily
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:rosa_arcana
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:munchdew
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:entropinnyum
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:kekimurus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:gourmaryllis
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:narslimmus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:spectrolus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:dandelifeon
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:rafflowsia
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:shulk_me_not
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:bellethorn
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:bellethorn_chibi
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:bergamute
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:dreadthorn
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:heisei_dream
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:tigerseye
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:jaded_amaranthus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:orechid
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:fallen_kanade
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:exoflame
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:agricarnation
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:agricarnation_chibi
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:hopperhock
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:hopperhock_chibi
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:tangleberrie
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:jiyuulia
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:rannuncarpus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:rannuncarpus_chibi
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:hyacidus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:pollidisiac
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:clayconia
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:clayconia_chibi
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:loonium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:daffomill
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:vinculotus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:spectranthemum
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:medumone
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:marimorphosis
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:marimorphosis_chibi
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:bubbell
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:bubbell_chibi
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:solegnolia
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:solegnolia_chibi
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:orechid_ignem
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:tiny_cactus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:small_oak_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:enchanted_birch_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:silver_birch_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:redwood_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pine_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:palm_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:mauve_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:red_maple_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:orange_maple_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:maple_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:white_magnolia_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pink_magnolia_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blue_magnolia_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:magnolia_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:golden_larch_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:larch_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:kapok_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:joshua_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:willow_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:socotra_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:flowering_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:eucalyptus_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dead_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dead_pine_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cypress_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cobalt_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cactus_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:brimwood_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blackwood_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:baobab_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:bamboo_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:ashen_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:apple_oak_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:alpha_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:black_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:brown_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pink_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:magenta_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:purple_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blue_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:light_blue_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cyan_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:green_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:lime_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:yellow_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:orange_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:red_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:gray_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:light_gray_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:white_snowbelle
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:felicia_daisy
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:fireweed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:glistering_bloom
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:hibiscus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:hyssop
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:mallow
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:poppy_bush
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:salmon_poppy_bush
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:tsubaki
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:waratah
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:white_trillium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:wilting_trillium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blue_lupine
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pink_lupine
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:purple_lupine
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:red_lupine
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:yellow_lupine
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dorcel
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:daisy
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:bleeding_heart
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:aster
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:alpha_rose
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:alpha_dandelion
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:mycotoxic_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:glistering_sprout
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cobalt_roots
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:brimsprout
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:ashen_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:bladed_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dead_steppe_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:frozen_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:medium_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:sandy_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:small_desert_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:steppe_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:steppe_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:stone_bud
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:barrel_cactus
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cave_hyssop
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecologics:coconut_seedling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecologics:walnut_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecologics:azalea_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: snowyspirit:wild_ginger
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:sandy_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:cabbages
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:tomatoes
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:onions
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: supplementaries:wild_flax
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:larch_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:aspen_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:swamp_oak_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:swamp_cypress_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:fir_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:baobab_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:larch_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:chestnut_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:ebony_sapling
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:white_orchid
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:bird_of_paradise
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:mountain_laurel
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:mountain_snowbell
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:hyssop
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:joe_pye
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:daphne
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:bottlebrushes
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:bluebell
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:begonie
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:golden_rod
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:goatsbeard
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:genisteae
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:foxglove_white
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:foxglove_pink
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:freesia_yellow
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:freesia_pink
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:lupine_blue
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:lupine_purple
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:water_hyacinth
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:tall_yucca_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:tall_cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:pink_delphinium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:blue_delphinium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:purple_delphinium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:white_delphinium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:bird_of_paradise
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:giant_tall_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:wild_rice
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:flowering_rush
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:tall_beachgrass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:tall_blue_pickerelweed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:tall_purple_pickerelweed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:barley
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:goldenrod
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:blue_hydrangea
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:watergrass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:white_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:orange_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:magenta_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:light_blue_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:yellow_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:lime_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:pink_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:gray_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:light_gray_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:cyan_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:purple_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:blue_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:brown_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:green_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:red_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:black_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:reed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:windswept_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:steppe_tall_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:sandy_tall_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:bladed_tall_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:barley
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:day_lily
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:meadow_sage
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:tassel
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pink_magnolia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blue_magnolia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:magnolia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:golden_larch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:larch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:kapok_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:jungle_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:joshua_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:flowering_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:eucalyptus_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dead_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dead_pine_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dark_oak_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cypress_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cherry_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:brimwood_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blackwood_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:birch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:baobab_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:ashen_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:acacia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:willow_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:spruce_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:socotra_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:enchanted_birch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:silver_birch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:redwood_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pine_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:palm_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:oak_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:mauve_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:red_maple_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:orange_maple_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:maple_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:mangrove_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:white_magnolia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: naturalist:cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:rice
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: supplementaries:flax
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:cardinal
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:tall_mountain_laurel
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:beach_bush_tall
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:wild_sunflower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:tall_lupine_blue
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:tall_lupine_purple
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:water_hyacinth
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:tall_yucca_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:tall_cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:pink_delphinium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:blue_delphinium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:purple_delphinium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:white_delphinium
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:bird_of_paradise
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:giant_tall_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:wild_rice
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:flowering_rush
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:tall_beachgrass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:tall_blue_pickerelweed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:tall_purple_pickerelweed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:barley
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:goldenrod
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:blue_hydrangea
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:watergrass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:white_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:orange_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:magenta_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:light_blue_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:yellow_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:lime_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:pink_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:gray_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:light_gray_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:cyan_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:purple_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:blue_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:brown_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:green_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:red_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: botania:black_double_flower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:reed
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:windswept_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:steppe_tall_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:sandy_tall_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:bladed_tall_grass
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:barley
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:day_lily
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:meadow_sage
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:tassel
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pink_magnolia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blue_magnolia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:magnolia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:golden_larch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:larch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:kapok_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:jungle_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:joshua_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:flowering_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:eucalyptus_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dead_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dead_pine_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dark_oak_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cypress_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cherry_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:brimwood_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blackwood_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:birch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:baobab_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:ashen_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:acacia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:willow_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:spruce_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:socotra_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:enchanted_birch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:silver_birch_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:redwood_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pine_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:palm_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:oak_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:mauve_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:red_maple_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:orange_maple_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:maple_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:mangrove_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:white_magnolia_shrub
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: naturalist:cattail
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: farmersdelight:rice_panicles
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: supplementaries:flax
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:cardinal
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:tall_mountain_laurel
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:beach_bush_tall
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:wild_sunfupper
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:tall_lupine_blue
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:tall_lupine_purple
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: sbiomesoplenty:origin_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:flowering_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:rainbow_birch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:yellow_autumn_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:orange_autumn_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:fir_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:redwood_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:mahogany_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:palm_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:willow_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:dead_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:magic_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:umbran_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:hellbark_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:pink_cherry_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:white_cherry_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: biomesoplenty:jacaranda_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: quark:blue_blossom_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: quark:lavender_blossom_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: quark:orange_blossom_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: quark:pink_blossom_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: quark:yellow_blossom_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:rosewood_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:morado_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:flowering_morado_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:yucca_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:kousa_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:aspen_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: atmospheric:grimwood_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: autumnity:red_maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: autumnity:orange_maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: autumnity:yellow_maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: autumnity:maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:willow_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:cherry_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:pink_wisteria_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:blue_wisteria_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:purple_wisteria_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:white_wisteria_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:pink_hanging_wisteria_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:blue_hanging_wisteria_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:purple_hanging_wisteria_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:white_hanging_wisteria_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: environmental:hanging_willow_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: upgrade_aquatic:river_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:aspen_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:araucaria_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:baobab_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:blooming_witch_hazel_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:blue_enchanted_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:blue_spruce_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:brown_birch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:brown_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:brown_zelkova_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:cika_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:cypress_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:ebony_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:fir_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:flowering_orchard_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:flowering_nightshade_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:flowering_paloverde_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:green_apple_skyris_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:green_enchanted_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:holly_berry_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:holly_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:indigo_jacaranda_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:jacaranda_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:joshua_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:mahogany_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:mangrove_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:orange_birch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:orange_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:orange_spruce_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:orchard_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:paloverde_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:pine_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:pink_cherry_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:rainbow_eucalyptus_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:red_birch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:red_maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:red_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:red_spruce_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:redwood_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:ripe_joshua_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:ripe_orchard_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:silver_maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:skyris_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:white_cherry_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:willow_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:witch_hazel_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:yellow_birch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:yellow_spruce_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: byg:zelkova_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecotones:hazel_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: sakurarosea:alt_sakura_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: sakurarosea:sakura_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: sakurarosea:white_sakura_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:cypress_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:dark_japanese_maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:hemlock_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:japanese_maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:japanese_maple_shrub_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:jungle_palm_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:rainbow_eucalyptus_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:redwood_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:rubber_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:sakura_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:willow_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: terrestria:yucca_palm_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: traverse:brown_autumnal_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: traverse:fir_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: traverse:orange_autumnal_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: traverse:red_autumnal_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: traverse:yellow_autumnal_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: vanillaenhanced:redwood_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wild_explorer:autumn_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wild_explorer:autumn_birch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wild_explorer:pink_cherry_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wild_explorer:white_cherry_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: wild_explorer:palm_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: dynamictrees:oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: dynamictrees:birch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: dynamictrees:spruce_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: dynamictrees:jungle_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: dynamictrees:acacia_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: dynamictrees:dark_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: desolation:charred_branches
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: desolation:ash_bramble
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:alpha_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:apple_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:ashen_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:bamboo_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:baobab_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blackwood_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:brimwood_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cobalt_webbing
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:cypress_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dead_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:dead_pine_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:eucalyptus_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:flowering_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:kapok_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:larch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:golden_larch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:joshua_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:magnolia_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blue_magnolia_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pink_magnolia_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:white_magnolia_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:orange_maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:red_maple_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:mauve_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:palm_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pine_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:redwood_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:silver_birch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:enchanted_birch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:small_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:socotra_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:willow_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecologics:coconut_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: ecologics:walnut_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:baobab_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:aspen_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:larch_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:orange_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:swamp_cypress_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:palm_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:ebony_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:chestnut_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:fir_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: bloomingnature:swamp_oak_leaves
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:stone_wall
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:polished_andesite_wall
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:warped_log
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:warped_wood
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:crimson_log
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:crimson_wood
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:standstone_wall
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:standstone_wall
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:polished_granite_wall
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:polished_diorite_stars
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:polished_diorite_wall
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:quartz
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:hyacinth_flowers
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:blue_magnolia_flowers
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:pink_magnolia_flowers
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:white_magnolia_flowers
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:maple_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:red_maple_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:orange_maple_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:enchanted_birch_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:silver_birch_leaf_pile
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:purple_coneflower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:orange_coneflower
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: regions_unexplored:clover
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:flowing_lava
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:string
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:daylight_sensor
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Block not found for name: minecraft:warped
+[14:22:52] [Render thread/INFO]: [OptiFine] [Shaders] Parsing item mappings: /shaders/item.properties
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID: block.10006
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID: block.10007
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID: block.10008
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID: block.10009
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID: block.10010
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID: block.10011
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID: block.10012
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID: block.10013
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Item not found: fire
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Item not found: soul_fire
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Item not found: nether_portal
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID mapping: item.10062=nether_portal
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Item not found: end_portal
+[14:22:52] [Render thread/WARN]: [OptiFine] Shaders: Item not found: end_gateway
+[14:22:52] [Render thread/WARN]: [OptiFine] [Shaders] Invalid item ID mapping: item.10063=end_portal end_gateway
+[14:22:52] [Render thread/INFO]: [OptiFine] [Shaders] Parsing entity mappings: /shaders/entity.properties
+[14:22:52] [Render thread/INFO]: [Shaders] Custom texture: texture.composite.colortex0 = image/worley_noise.dat TEXTURE_3D R8 64 64 64 RED UNSIGNED_BYTE
+[14:22:52] [Render thread/INFO]: [Shaders] Custom texture: texture.deferred.depthtex0 = image/atmosphere/scattering.dat TEXTURE_3D RGB16F 32 64 32 RGB HALF_FLOAT
+[14:22:52] [Render thread/INFO]: [Shaders] Custom texture: texture.deferred.colortex6.1 = image/worley_noise.dat TEXTURE_3D R8 64 64 64 RED UNSIGNED_BYTE
+[14:22:52] [Render thread/INFO]: [Shaders] Custom texture: texture.deferred.colortex7.1 = image/curl_noise.dat TEXTURE_3D RGB8 32 32 32 RGB UNSIGNED_BYTE
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: view_res
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: view_pixel_size
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: jitter_x
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: jitter_y
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: taa_offset
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: eye_blocklight
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: eye_skylight
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_up_dir_norm
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_up_dir_x
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_up_dir_y
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_up_dir_z
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: view_up_dir
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_sun_dir_norm
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_sun_dir_x
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_sun_dir_y
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_sun_dir_z
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: view_sun_dir
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: sun_dir_x
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: sun_dir_y
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: sun_dir_z
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: sun_dir
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_moon_dir_norm
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_moon_dir_x
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_moon_dir_y
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_moon_dir_z
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: view_moon_dir
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: moon_dir_x
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: moon_dir_y
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: moon_dir_z
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: moon_dir
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_light_dir_x
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_light_dir_y
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: view_light_dir_z
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: view_light_dir
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: light_dir_x
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: light_dir_y
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: light_dir_z
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: light_dir
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: me_fade
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: me_weight
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: time_sunrise
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: time_noon
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: time_midnight
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: time_sunset
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: world_age
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: daylight_cycle_enabled
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: world_age_delta
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: world_age_changed
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: lightning_flash_iris
+[14:22:52] [Render thread/WARN]: [Shaders] net.optifine.expr.ParseException: Model variable not found: lightningBoltPosition.w
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: lightning_flash_of
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: moon_phase_brightness
+[14:22:52] [Render thread/INFO]: [Shaders] Custom variable: day_factor_u
+[14:22:52] [Render thread/WARN]: [Shaders] net.optifine.expr.ParseException: Model variable not found: sun_dir.y
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: day_factor
+[14:22:52] [Render thread/WARN]: [Shaders] net.optifine.expr.ParseException: Model variable not found: day_factor_u
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_cave
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_arid
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_snowy
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_taiga
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_jungle
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_swamp
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_temperate
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_may_rain
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_may_snow
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_temperature
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_humidity
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: desert_sandstorm
+[14:22:52] [Render thread/INFO]: [Shaders] Custom uniform: biome_may_sandstorm
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: dh_water
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_particles
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_block_translucent
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_entities_translucent
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_particles_translucent
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: dh_water
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_particles
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_block_translucent
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_entities_translucent
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_particles_translucent
+[14:22:52] [Render thread/INFO]: [Shaders] Blend gbuffers_armor_glint.colortex0=ONE ONE ONE ZERO
+[14:22:52] [Render thread/INFO]: [Shaders] Blend gbuffers_basic.colortex0=SRC_ALPHA ONE_MINUS_SRC_ALPHA ONE ZERO
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: dh_water
+[14:22:52] [Render thread/INFO]: [Shaders] Blend gbuffers_water.colortex0=SRC_ALPHA ONE_MINUS_SRC_ALPHA ONE ZERO
+[14:22:52] [Render thread/INFO]: [Shaders] Blend gbuffers_weather.colortex0=SRC_ALPHA ONE_MINUS_SRC_ALPHA ONE ZERO
+[14:22:52] [Render thread/INFO]: [Shaders] Blend gbuffers_hand_water.colortex0=SRC_ALPHA ONE_MINUS_SRC_ALPHA ONE ZERO
+[14:22:52] [Render thread/INFO]: [Shaders] Blend gbuffers_textured.colortex0=SRC_ALPHA ONE_MINUS_SRC_ALPHA ONE ZERO
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_entities_translucent
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_block_translucent
+[14:22:52] [Render thread/ERROR]: [Shaders] Invalid program name: gbuffers_particles_translucent
+[14:22:52] [Render thread/INFO]: [Shaders] Fixed size colortex4: 192 108
+[14:22:52] [Render thread/INFO]: [Shaders] Relative size colortex6: 0.5 0.5
+[14:22:52] [Render thread/INFO]: [Shaders] Relative size colortex7: 0.5 0.5
+[14:22:52] [Render thread/INFO]: [Shaders] Fixed size colortex8: 256 256
+[14:22:52] [Render thread/INFO]: [Shaders] Relative size colortex9: 0.25 0.25
+[14:22:52] [Render thread/INFO]: [Shaders] Relative size colortex10: 0.25 0.25
+[14:22:52] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IQuadTransformer
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ForgeItemModelShaper
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.lighting.ForgeModelBlockRenderer
+[14:22:53] [Render thread/INFO]: Reloading ResourceManager: vanilla
+[14:22:53] [Render thread/INFO]: [OptiFine] *** Reloading textures ***
+[14:22:53] [Render thread/INFO]: [OptiFine] Resource packs: vanilla
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.gui.ModListScreen
+[14:22:53] [Worker-Main-5/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/shield_patterns.png
+[14:22:53] [Worker-Main-7/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/banner_patterns.png
+[14:22:53] [Worker-Main-8/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/signs.png
+[14:22:53] [Worker-Main-5/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-7/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-14/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/chest.png
+[14:22:53] [Worker-Main-8/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-14/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-10/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/decorated_pot.png
+[14:22:53] [Worker-Main-10/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-4/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/beds.png
+[14:22:53] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-2/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/shulker_boxes.png
+[14:22:53] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/blocks.png
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-1/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/armor_trims.png
+[14:22:53] [Worker-Main-1/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-13/INFO]: Found unifont_all_no_pua-15.0.06.hex, loading
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.gui.TitleScreenModUpdateIndicator
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[14:22:53] [Worker-Main-12/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/particles.png
+[14:22:53] [Worker-Main-12/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/paintings.png
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[14:22:53] [Worker-Main-11/INFO]: [OptiFine] Pre-stitch: minecraft:textures/atlas/mob_effects.png
+[14:22:53] [Worker-Main-11/INFO]: [OptiFine] Multitexture: false
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[14:22:53] [Worker-Main-1/INFO]: [OptiFine] Mipmap levels: 4
+[14:22:53] [Render thread/INFO]: [OptiFine] *** Reflector Forge ***
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_2, 3 -> 9
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.client.extensions.common.IClientItemExtensions.of
+[14:22:53] [Worker-Main-14/INFO]: [OptiFine] Sprite size: 64
+[14:22:53] [Worker-Main-14/INFO]: [OptiFine] Mipmap levels: 6
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.loading.ClientModLoader
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.level.ChunkDataEvent$Save
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.level.ChunkEvent$Load
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.level.ChunkEvent$Unload
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ColorResolverManager
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.logging.CrashReportAnalyser
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityRenderersEvent$AddLayers
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.EntityLeaveLevelEvent
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.ViewportEvent$ComputeCameraAngles
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.EntityJoinLevelEvent
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.eventbus.api.Event.getResult
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.eventbus.api.IEventBus
+[14:22:53] [Worker-Main-14/INFO]: [OptiFine] Scaled too small texture: minecraft:missingno, 16 -> 64
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: fkn.getTexture
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: fkt.getFaceData
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getSoundType
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getStateAtViewpoint
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.shouldDisplayFluidOverlay
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeEntity.getEyeInFluidType
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeEntity.getParts
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeEntity.hasCustomOutlineRendering
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeEntity.isMultipartEntity
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeEntity.onAddedToWorld
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeEntity.onRemovedFromWorld
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeEntity.shouldRiderSit
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgePlayer
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[14:22:53] [Worker-Main-4/INFO]: [OptiFine] Sprite size: 64
+[14:22:53] [Worker-Main-4/INFO]: [OptiFine] Mipmap levels: 6
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[14:22:53] [Worker-Main-4/INFO]: [OptiFine] Scaled too small texture: minecraft:missingno, 16 -> 64
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[14:22:53] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[14:22:53] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: ahp.currentlyLoading
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[14:22:53] [Worker-Main-8/INFO]: [OptiFine] Sprite size: 64
+[14:22:53] [Worker-Main-8/INFO]: [OptiFine] Mipmap levels: 6
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.client.model.ForgeFaceData.calculateNormals
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
+[14:22:53] [Worker-Main-2/INFO]: [OptiFine] Scaled too small texture: minecraft:missingno, 16 -> 64
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.common.ForgeConfig$Client.calculateAllNormals
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.common.ForgeConfig$Client.experimentalForgeLightPipelineEnabled
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.common.ForgeConfig$Client.useCombinedDepthStencilAttachment
+[14:22:53] [Worker-Main-8/INFO]: [OptiFine] Scaled too small texture: minecraft:missingno, 16 -> 64
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.common.ForgeConfigSpec.childConfig
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.common.ForgeConfigSpec$ConfigValue.defaultSupplier
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.common.ForgeConfigSpec$ConfigValue.spec
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.ForgeConfigSpec$ConfigValue.get
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/21_tinted_glass/tinted_glass.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[14:22:53] [Worker-Main-10/INFO]: [OptiFine] Mipmap levels: 4
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[14:22:53] [Worker-Main-9/INFO]: [OptiFine] Multipass connected textures: false
+[14:22:53] [Worker-Main-5/INFO]: [OptiFine] Sprite size: 64
+[14:22:53] [Worker-Main-5/INFO]: [OptiFine] Mipmap levels: 6
+[14:22:53] [Worker-Main-7/INFO]: [OptiFine] Sprite size: 64
+[14:22:53] [Worker-Main-7/INFO]: [OptiFine] Mipmap levels: 6
+[14:22:53] [Worker-Main-5/INFO]: [OptiFine] Scaled too small texture: minecraft:missingno, 16 -> 64
+[14:22:53] [Worker-Main-7/INFO]: [OptiFine] Scaled too small texture: minecraft:missingno, 16 -> 64
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: ddx.getWorldForge
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeItem
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeItemStack
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeI18n
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: enl.setKeyConflictContext
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: enl.setKeyModifierAndCode
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: dyl.render
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: cgq.getStyleModifier
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: aij.forceTicks
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: aij.isForceTicks
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockEntity.getRenderBoundingBox
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockEntity.hasCustomOutlineRendering
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.extensions.IForgeDimensionSpecialEffects
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemDecoratorHandler
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.geometry.GeometryLoaderManager
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.settings.KeyModifier
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.ModContainer
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.ModLoader
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.PlayLevelSoundEvent
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.QuadBakingVertexConsumer
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.QuadTransformers
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RegisterShadersEvent
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockScreenEffectEvent$OverlayType
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.CustomizeGuiOverlayEvent$BossEventProgress
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_SKY
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_SOLID_BLOCKS
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_CUTOUT_MIPPED_BLOCKS_BLOCKS
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_CUTOUT_BLOCKS
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_ENTITIES
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_BLOCK_ENTITIES
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_TRANSLUCENT_BLOCKS
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_TRIPWIRE_BLOCKS
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_PARTICLES
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_WEATHER
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.event.RenderLevelStageEvent$Stage.AFTER_LEVEL
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderNameTagEvent
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderTooltipEvent
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderTooltipEvent$Color
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.ScreenshotEvent
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.server.ServerLifecycleHooks
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: fil.updateSprite
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Method not present: exl.renderTooltipBackground
+[14:22:53] [Render thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.level.LevelEvent$Load
+[14:22:53] [Render thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_1, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_0, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_11, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_10, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_6, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_5, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_4, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_3, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_9, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_8, 3 -> 9
+[14:22:53] [Worker-Main-6/INFO]: [OptiFine] Scaled non power of 2: minecraft:cherry_7, 3 -> 9
+[14:22:53] [Worker-Main-2/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
+[14:22:53] [Worker-Main-14/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
+[14:22:53] [Worker-Main-8/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
+[14:22:53] [Worker-Main-7/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
+[14:22:53] [Worker-Main-4/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
+[14:22:53] [Worker-Main-5/INFO]: [OptiFine] Scaled too small texture: minecraft:optifine/ctm/default/empty, 16 -> 64
+[14:22:54] [Worker-Main-9/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[14:22:55] [Worker-Main-9/INFO]: [OptiFine] Mipmap levels: 4
+[14:22:56] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[14:22:56] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[14:22:56] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[14:22:56] [Render thread/INFO]: Sound engine started
+[14:22:56] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 1024x1024, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 1024x1024, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 51
+[14:22:56] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 512x512, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 512x512, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 512x512, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 512x512, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 1024x1024, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 1024x1024, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 128x64, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 128x64, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 512x256, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 512x256, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 512x256, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 512x256, mipmaps: 4
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[14:22:56] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 0
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 0
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 1
+[14:22:56] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 0
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 0
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map normal: 128x128, mipmaps: 0
+[14:22:56] [Render thread/INFO]: [Shaders] Allocate texture map specular: 128x128, mipmaps: 0
+[14:22:56] [Render thread/INFO]: [OptiFine] Animated sprites: 0
+[14:22:56] [Render thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[14:22:56] [Render thread/INFO]: [OptiFine] Natural Textures: Parsing default configuration "optifine/natural.properties"
+[14:22:56] [Render thread/INFO]: [OptiFine] Natural Textures: Valid only for textures from default resource pack
+[14:22:56] [Render thread/INFO]: [OptiFine] NaturalTextures: 112
+[14:22:57] [Render thread/INFO]: [OptiFine] Disable Forge light pipeline
+[14:23:08] [Render thread/INFO]: Stopping!
+[HMCL ProcessListener] Minecraft exit with code 0(0x0), type is NORMAL.
+-----------------------------------------------------------------------------
+File Path: ./data/minecraftLog.log
+File Device ID = 2050
+Inode No. 2523296
+Nlink count = 1
+File access mode: 33204
+User ID: [1000] Group ID: [1000] Device type ID: [0]
+File reality size = 122962 Bytes File block size = 4096 Bytes Use 248 blocks
+Last access time: Fri May 17 18:51:58 2024
+Last modify time: Fri May 17 18:51:58 2024
+Last state change time: Fri May 17 18:51:58 2024
+-----------------------------------------------------------------------------
