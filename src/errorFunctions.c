@@ -4,14 +4,19 @@
 #include "../include/tlpi_hdr.h"
 #include "../include/ename.c.inc"
 
-void printSplitLine(int __len, const char __style, FILE * __outFp)
+void printSplitLine(size_t __len, const char __style, const int __fd)
 {
-    for (size_t len = 0; len < __len; ++len)
-    {
-        fputc(__style, __outFp);
-    }
+    char * splitLine = (char * )calloc(__len, sizeof(char));
 
-    fputc('\n', __outFp);
+    if (!splitLine) { errExit("calloc(__len, sizeof(char))"); }
+
+    memset(splitLine, __style, __len);
+
+    ssize_t writeByte = write(__fd, splitLine, __len);
+
+    if (writeByte == -1) { free(splitLine); close(__fd); fatal("write(__fd, splitLine, __len)"); }
+
+    free(splitLine);
 }
 
 #ifdef __GNUC__ 

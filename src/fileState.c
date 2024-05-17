@@ -3,6 +3,9 @@
 
 #include "../include/fileState.h"
 
+#define FILE_STATE_STRING_LENGTH 256
+#define FILE_STATE_STRING_AMOUNT 8
+
 struct stat getFileState(const int __fd)
 {
     struct stat srcState;
@@ -16,37 +19,61 @@ struct stat getFileState(const int __fd)
     return srcState;
 }
 
-void showFileState(const char * __fileName, const struct stat * __fileState, FILE * __outputFp)
+void showFileState(const char * __fileName, const struct stat * __fileState, const int __fd)
 {
-    if (!__fileState)
+    if (!__fileState || !__fileState->st_nlink)
     {
         fatal("showFileState(..., NULL, ...): Empty stat struct.\n");
     }
 
-    printSplitLine(45, '-', __outputFp);
+    ssize_t writeByte = 0L;
+    size_t  maxStrLen = 0UL;
+    char stateStrings[FILE_STATE_STRING_AMOUNT][FILE_STATE_STRING_LENGTH];
+    memset(*stateStrings, 0, FILE_STATE_STRING_AMOUNT * FILE_STATE_STRING_LENGTH);
 
-    fprintf(
-                __outputFp,
-                "File Path: %s\nDevice ID for this file: %lu\nInode No = %lu\nNlink count = %lu\nFile access mode: %u\n",
-                __fileName,
-                __fileState->st_dev, __fileState->st_ino, 
-                __fileState->st_nlink, __fileState->st_mode 
+    snprintf(stateStrings[0], FILE_STATE_STRING_LENGTH, "\nFile Path: %s\n", __fileName);
+    snprintf(stateStrings[1], FILE_STATE_STRING_LENGTH, "File Device ID = %lu\n", __fileState->st_dev);
+    snprintf(stateStrings[2], FILE_STATE_STRING_LENGTH, "Inode No. %lu\n", __fileState->st_ino);
+    snprintf(stateStrings[3], FILE_STATE_STRING_LENGTH, "Nlink count = %lu\n", __fileState->st_nlink);
+    snprintf(stateStrings[4], FILE_STATE_STRING_LENGTH, "File access mode: %u\n", __fileState->st_mode);
+    snprintf(
+                stateStrings[5], FILE_STATE_STRING_LENGTH, 
+                "User ID: [%u] Group ID: [%u] Device type ID: [%lu]\n",
+                __fileState->st_uid, __fileState->st_gid, __fileState->st_rdev
         );
 
-    fprintf(
-               __outputFp,
-               "User ID: %u\nGroup ID: %u\nDevice type ID: %lu\nFile reality size = %ld Bytes\nFile block size = %ld Bytes\nUse %ld blocks\n",
-               __fileState->st_uid, __fileState->st_gid, __fileState->st_rdev,
-               __fileState->st_size, __fileState->st_blksize, __fileState->st_blocks
+    snprintf(
+                stateStrings[6], FILE_STATE_STRING_LENGTH,
+                "File reality size = %ld Bytes File block size = %ld Bytes Use %ld blocks\n",
+                __fileState->st_size, __fileState->st_blksize, __fileState->st_blocks
         );
 
-    fprintf(
-                __outputFp,
+    snprintf(
+                stateStrings[7], FILE_STATE_STRING_LENGTH,
                 "Last access time: %sLast modify time: %sLast state change time: %s",
-                ctime(&__fileState->st_atime),
-                ctime(&__fileState->st_mtime),
-                ctime(&__fileState->st_ctime)
-    );
+                ctime(&__fileState->st_atime), ctime(&__fileState->st_mtime), ctime(&__fileState->st_ctime)
+        );
 
-    printSplitLine(45, '-', __outputFp);
+    maxStrLen = strlen(stateStrings[0]);
+    
+    for (size_t index = 1; index < FILE_STATE_STRING_AMOUNT - 1; ++index) 
+    {
+        size_t tempLen = strlen(stateStrings[index]);
+        if (tempLen > maxStrLen) { maxStrLen = tempLen; }
+    }
+
+    printSplitLine(maxStrLen, '-', __fd);
+
+    for (size_t index = 0; index < FILE_STATE_STRING_AMOUNT; ++index)
+    {
+        writeByte = write(__fd, stateStrings[index], strlen(stateStrings[index]));
+        if (writeByte == -1 || writeByte < strlen(stateStrings[index]))
+        {
+            close(__fd);
+            fatal("write(__fd, stateStrings[index], strlen(stateStrings[index])");
+        }
+    }
+
+    printSplitLine(maxStrLen, '-', __fd);
+    printSplitLine(1, '\n', __fd);
 }
