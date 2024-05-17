@@ -13,10 +13,10 @@ struct stat getFileState(const int __fd);
  * 
  * @param __fileName    文件名或文件路径
  * @param __fileState   一个文件的详细结构体属性
- * @param __outputFp    要将这些信息输出到哪个文件
+ * @param __fd          要将这些信息输出到哪个文件
  * 
  * @return no return
 */
-void showFileState(const char * __fileName, const struct stat * __fileState, FILE * __outputFp);
+void showFileState(const char * __fileName, const struct stat * __fileState, const int __fd);
 
 #endif //_FILE_STATE_H_
