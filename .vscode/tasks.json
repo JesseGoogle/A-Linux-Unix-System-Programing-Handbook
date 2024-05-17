@@ -8,6 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "/home/jesse/桌面/linuxSystemProgram/lib/tlpi_hdr",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

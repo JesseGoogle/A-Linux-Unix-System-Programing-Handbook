@@ -33,7 +33,8 @@
         "errno.h": "c",
         "stdio.h": "c",
         "stdlib.h": "c",
-        "stdarg.h": "c"
+        "stdarg.h": "c",
+        "fcntl": "c"
     },
     "cmake.configureOnOpen": true
 }
