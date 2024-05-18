@@ -3,6 +3,9 @@
 
 #include "../include/tlpi_hdr.h"
 
+#define FILE_STATE_STRING_LENGTH 256
+#define FILE_STATE_STRING_AMOUNT 8
+
 /**
  * @brief 传入文件描述符然后获取源文件的详细属性。
 */
