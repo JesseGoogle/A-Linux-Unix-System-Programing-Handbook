@@ -3,9 +3,6 @@
 
 #include "../include/fileState.h"
 
-#define FILE_STATE_STRING_LENGTH 256
-#define FILE_STATE_STRING_AMOUNT 8
-
 struct stat getFileState(const int __fd)
 {
     struct stat srcState;
