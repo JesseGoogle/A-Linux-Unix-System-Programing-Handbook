@@ -25,7 +25,8 @@ int main(int argc, char const *argv[])
     if (argc != 2 || (strcmp(argv[1], "--help") == 0))
         usageErr("%s <write-file>\n", argv[0]);
 
-    if ((fd = open(argv[1], accessMode, accessPower)) == -1) { errExit("open(argv[1], accessMode, accessPower)"); }
+    if ((fd = open(argv[1], accessMode, accessPower)) == -1)
+        errExit("open(argv[1], accessMode, accessPower)");
 
     myFileState = getFileState(fd);
     sprintf(myBuffer, "This buffer will writed to %s file.", argv[1]);
@@ -58,7 +59,7 @@ int main(int argc, char const *argv[])
 
     if (writeBytes < toRequired)
     {
-        fprintf(stderr, "readFewer bytes than requested.\n");
+        fprintf(stderr, "read Fewer bytes than requested.\n");
     }
 
     printf("Total bytes requested: %ld bytes; Reality write: %ld bytes.\n", toRequired, writeBytes);
