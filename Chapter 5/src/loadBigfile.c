@@ -104,6 +104,7 @@ void cleanFileData(const int __fd, const long int __fileSize)
             close(__fd);
             errExit("pwrite(__fd, tempBuffer + offset, __fileSize - offset, offset)"); 
         }
+        else if (bytesWritten == 0) { break; }
 
         offset += bytesWritten;
         printf("execute %d, written %.lf Mb.\n", ++loopExecuteTimes, bytesWritten / pow(1024, 2));
