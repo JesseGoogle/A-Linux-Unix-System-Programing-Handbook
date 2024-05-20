@@ -82,6 +82,7 @@ void cleanFileData(const int __fd, const long int __fileSize)
     char *tempBuffer = (char *)calloc(__fileSize, 1);
     off_t offset = 0L;
     ssize_t bytesWritten = 0L;
+    int loopExecuteTimes = 0;
 
     if (!tempBuffer) 
     { 
@@ -91,6 +92,10 @@ void cleanFileData(const int __fd, const long int __fileSize)
 
     while (offset < __fileSize)
     {
+        /**
+         * 把缓冲区 tempBuffer 中从 tempBuffer + offset 开始的后 __fileSize - offset 字节写入
+         * 文件描述符 __fd 所指向的文件的 offset 处后 __fileSize - offset 字节。
+        */
         bytesWritten = pwrite(__fd, tempBuffer + offset, __fileSize - offset, offset);
 
         if (bytesWritten == -1)
@@ -101,6 +106,7 @@ void cleanFileData(const int __fd, const long int __fileSize)
         }
 
         offset += bytesWritten;
+        printf("execute %d, written %.lf Mb.\n", ++loopExecuteTimes, bytesWritten / pow(1024, 2));
     }
 
     free(tempBuffer);
