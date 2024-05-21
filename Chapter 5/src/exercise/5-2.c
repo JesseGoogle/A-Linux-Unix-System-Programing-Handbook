@@ -28,9 +28,11 @@ int main(int argc, char const *argv[])
 
     /*调试结果显示调用成功*/
     printf(
-                "After open(argv[1], O_WRONLY | O_APPEND, accessPower)\nFile [%s] offset = [%ld] %s to file reality size.\n",
-                argv[1], currentOffset, (currentOffset == fileState.st_size) ? "equal" : "not equal"
+                "After open(%s, O_WRONLY | O_APPEND, accessPower)\nFile [%s] offset = [%ld] %s to file reality size.\n",
+                argv[1], argv[1], currentOffset, (currentOffset == fileState.st_size) ? "equal" : "not equal"
         );
+    
+    sleep(2);
 
     /**
      * 但，文件是使用了 O_APPEND 标志位打开的，
