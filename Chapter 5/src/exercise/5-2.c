@@ -10,6 +10,8 @@
 
 int main(int argc, char const *argv[])
 {
+    system("clear");
+
     int     fd          = 0;
     int     accessMode  = O_WRONLY | O_APPEND;
     mode_t  accessPower = S_IWUSR | S_IRUSR;
@@ -21,17 +23,22 @@ int main(int argc, char const *argv[])
         errExit("open(argv[1], accessMode, accessPower)"); 
     }
 
-    off_t currentOffset = lseek(fd, 0, SEEK_CUR);
+    off_t currentOffset = lseek(fd, 0, SEEK_SET);   // 将文件偏移量移到文件头
     struct stat fileState = getFileState(fd);
 
+    /*调试结果显示调用成功*/
     printf(
                 "After open(argv[1], O_WRONLY | O_APPEND, accessPower)\nFile [%s] offset = [%ld] %s to file reality size.\n",
                 argv[1], currentOffset, (currentOffset == fileState.st_size) ? "equal" : "not equal"
         );
 
+    /**
+     * 但，文件是使用了 O_APPEND 标志位打开的，
+     * 每次调用 write() 都会自动偏移到文件末尾，无视之前的 lseek() 操作。
+    */
     if ((writtenBytes = write(fd, "\nProgram 5-2 write string here.", 31)) == -1)
     {
-        errExit("write(fd, ""\nProgram 5-2 write string here."", 32)");
+        errExit("write(fd, ""\nProgram 5-2 write string here."", 31)");
     }
 
     close(fd);
