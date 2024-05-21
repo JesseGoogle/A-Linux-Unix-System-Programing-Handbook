@@ -9,6 +9,8 @@
  * 且打开文件时使用了 O_EXCL 标志，确保调用者以独占的方式使用文件。
 */
 
+#define FILE_PATH_LENGTH 24
+
 /**
  * @brief 逐个关闭文件描述符数组中的所有文件，
  *        并根据文件路径销毁所有临时文件。
@@ -30,39 +32,57 @@ int main(int argc, char const *argv[])
         usageErr("[%s] <rand-amount> <delay-time>\n", argv[0]); 
     }
 
+    /*要生成临时文件的总数*/
     int randAmount = getInt(argv[1], GN_ANY_BASE, "getInt(argv[1], GN_ANY_BASE, ...)");
+
+    /*每生成一个临时文件后要挂起进程的时间*/
     int delayTimes = getInt(argv[2], GN_ANY_BASE, "getInt(argv[2], GN_ANY_BASE, ...)");
+
+    /*临时文件模板路径*/
+    const char templateFilePath[] = "./data/temp/testXXXXXX";
+
+    /*临时文件路径字符串数组，动态分配*/
     char ** tempFilePathSet = (char **)calloc(randAmount, sizeof(char *));
+
+    if (!tempFilePathSet) { errExit("(char **)calloc(randAmount, sizeof(char *))"); }
 
     for (size_t sIndex = 0; sIndex < randAmount; ++sIndex)
     {
-        tempFilePathSet[sIndex] = (char *)calloc(24, sizeof(char));
-        strncpy(tempFilePathSet[sIndex], "./data/temp/testXXXXXX", 23);
-        tempFilePathSet[23] = '\0';
+        tempFilePathSet[sIndex] = (char *)calloc(FILE_PATH_LENGTH, sizeof(char));
+
+        if (!tempFilePathSet[sIndex]) { errExit("(char *)calloc(FILE_PATH_LENGTH, sizeof(char))"); }
+
+        strncpy(tempFilePathSet[sIndex], templateFilePath, FILE_PATH_LENGTH - 1);
     }
 
+    /*文件描述符数组，动态分配*/
     int * fdSet = (int *)calloc(randAmount, sizeof(int));
 
     for (size_t rIndex = 0; rIndex < randAmount; ++rIndex)
     {
-        fdSet[rIndex] = mkstemp(tempFilePathSet[rIndex]);
+        /*生成唯一临时文件，返回描述符*/
+        if ((fdSet[rIndex] = mkstemp(tempFilePathSet[rIndex])) == -1)
+        { 
+            errExit("mkstemp(tempFilePathSet[rIndex])"); 
+        }
 
         printf("Generated temp file name: [%s]\n", tempFilePathSet[rIndex]);
-
-        memset(tempFilePathSet[rIndex] + strlen(tempFilePathSet[rIndex]) - 6, 'X', 6);
-
-        //printf("%d %s\n", strcmp(tempFilePath, "./data/temp/testXXXXXX"), tempFilePath);
 
         sleep(delayTimes);
     }
 
     freeFdSetAndFile(fdSet, tempFilePathSet, randAmount);
+
+    puts("Free fdset.");
     free(fdSet);
 
+    puts("Free tempFilePathSet.");
     for (size_t sIndex = 0; sIndex < randAmount; ++sIndex)
     {
         free(tempFilePathSet[sIndex]);
     }
+
+    puts("Done.");
 
     return EXIT_SUCCESS;
 }
@@ -71,7 +91,10 @@ void freeFdSetAndFile(int * __fdSet, char ** __filePathSet, const int __setSize)
 {
     for (int index = 0; index < __setSize; ++index)
     {
+        printf("Close and delete file: [%s], fd = %d\n", __filePathSet[index], __fdSet[index]);
         unlink(__filePathSet[index]);
         if (close(__fdSet[index]) == -1) { errExit("close(__fdSet[index])"); }
+
+        sleep(1);
     }
 }
