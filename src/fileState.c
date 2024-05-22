@@ -1,7 +1,28 @@
 #include <sys/stat.h>
 #include <time.h>
+#include <fcntl.h>
 
 #include "../include/fileState.h"
+
+/**
+ * fcntl(fd, F_GETFL) 的返回值是 fd 所指向的文件访问模式相或的结果。
+ * 如（O_RDWR | O_TRUNC），所以需要设计一些宏去解析 fcntl() 函数的返回值，
+ * 让它和所有标志位逐个相与，得出该文件的具体访问模式。
+*/
+#define IS_READ_ONLY(__fd)   ((fcntl(__fd, F_GETFL) & O_RDONLY) != FALSE) // 只读
+#define IS_WRITE_ONLY(__fd)  ((fcntl(__fd, F_GETFL) & O_WRONLY) != FALSE) // 只写
+#define IS_READ_WRITE(__fd)  ((fcntl(__fd, F_GETFL) & O_RDWR)   != FALSE) // 可读可写
+#define IS_APPEND(__fd)      ((fcntl(__fd, F_GETFL) & O_APPEND) != FALSE) // 文件尾追加
+#define IS_CREATE(__fd)      ((fcntl(__fd, F_GETFL) & O_CREAT)  != FALSE) // 文件不存在则创建
+#define IS_EXCL(__fd)        ((fcntl(__fd, F_GETFL) & O_EXCL)   != FALSE) // 结合 O_CREAT 使用，专门用于创建文件
+#define IS_NOCTTY(__fd)      ((fcntl(__fd, F_GETFL) & O_NOCTTY) != FALSE) // 不要让所指向的终端设备成为控制终端
+#define IS_TRUNC(__fd)       ((fcntl(__fd, F_GETFL) & O_TRUNC)  != FALSE) // 打开文件前先截断为 0
+#define IS_ASYNC(__fd)       ((fcntl(__fd, F_GETFL) & O_ASYNC)  != FALSE) // 当 I/O 操作可行时，产生 signal 通知进程
+#define IS_NONBLOCK(__fd)    ((fcntl(__fd, F_GETFL) & O_NONBLOCK) != FALSE) // 以非阻塞的方式打开
+#define IS_SYNC(__fd)        ((fcntl(__fd, F_GETFL) & O_SYNC)   != FALSE)   // 以同步方式写入文件
+//#define IS_DSYNC(__fd)       ((fcntl(__fd, F_GETFL) & __O_DSYNC) != FALSE)
+//#define IS_NOFOLLOW(__fd)    ((fcntl(__fd, F_GETFL) & __O_NOFOLLOW) != FALSE)
+//#define IS_DIRECT(__fd)      ((fcntl(__fd, F_GETFL) & __O_DIRECT) != FALSE)
 
 struct stat getFileState(const int __fd)
 {
@@ -73,4 +94,81 @@ void showFileState(const char * __fileName, const struct stat * __fileState, con
 
     printSplitLine(maxStrLen, '-', __fd);
     printSplitLine(1, '\n', __fd);
+}
+
+void getFileAccessFlag(const char * __filePath, const int __checkedFd, const int __outputFd)
+{
+    if (!__filePath || (*__filePath) == '\0') { fatal("getFileAccessFlag() -> Empty __filePath!"); }
+
+    char fileName[128] = {0};
+    ssize_t writeReturnVal = 0;
+    sprintf(fileName, "File: [%s] fd = [%d], access flag is:\n", __filePath, __checkedFd);
+
+    if (write(__outputFd, fileName, strlen(fileName)) == -1)
+    {
+        errExit("getFileAccessFlag() -> write(__outputFd, fileName, strlen(fileName))");
+    }
+
+    if (IS_READ_ONLY(__checkedFd))  { writeReturnVal = write(__outputFd, "<read-only> ", 13); }
+    if (IS_WRITE_ONLY(__checkedFd)) { writeReturnVal = write(__outputFd, "<write-only> ", 14); }
+    if (IS_READ_WRITE(__checkedFd)) { writeReturnVal = write(__outputFd, "<read-write> ", 14); }
+    if (IS_APPEND(__checkedFd))     { writeReturnVal = write(__outputFd, "<append> ", 10); }
+    if (IS_CREATE(__checkedFd))     { writeReturnVal = write(__outputFd, "<create> ", 10); }
+    if (IS_EXCL(__checkedFd))       { writeReturnVal = write(__outputFd, "<excl> ", 8); }
+    if (IS_NOCTTY(__checkedFd))     { writeReturnVal = write(__outputFd, "<noctty> ", 10); }
+    if (IS_TRUNC(__checkedFd))      { writeReturnVal = write(__outputFd, "<trunc> ", 9); }
+    if (IS_ASYNC(__checkedFd))      { writeReturnVal = write(__outputFd, "<async> ", 9); }
+    if (IS_NONBLOCK(__checkedFd))   { writeReturnVal = write(__outputFd, "<non-block> ", 13); }
+    if (IS_SYNC(__checkedFd))       { writeReturnVal = write(__outputFd, "<sync> ", 8); }
+
+    writeReturnVal = write(__outputFd, "\n", 1);
+
+    if (writeReturnVal == -1) { errExit("write() out put file flag failed..."); }
+}
+
+void modifyFileFlag(const int __fd, enum FlagSetting __flagSet, const int __flag)
+{
+    int accessFlag = fcntl(__fd, F_GETFL);
+    if (accessFlag == -1)
+    {
+        errExit("modifyFileFlag() -> fcntl(__fd, F_GETFL)");
+    }
+
+    switch (__flagSet)
+    {
+        // 增加新标志位，将新标志位与原标志位做或等于运算
+        case INCREASE:
+            accessFlag |= __flag;
+            if (fcntl(__fd, F_SETFL, accessFlag) == -1)
+            {
+                errExit("modifyFileFlag(INCREASE) -> fcntl(__fd, F_SETFL, accessFlag)");
+            }
+
+            break;
+
+        // 减少标志位，将要减少的标志位取反后再与原标志位做与等于运算
+        case REDUCE:      
+            accessFlag &= (~__flag);
+
+            if (fcntl(__fd, F_SETFL, accessFlag) == -1)
+            {
+                errExit("modifyFileFlag(REDUCE) -> fcntl(__fd, F_SETFL, accessFlag)");
+            }
+
+            break;
+
+        default:
+            fatal("modifyFileFlag(..., [__flagSet], ...): invalid flagset!");
+    }
+}
+
+off_t getFileCurrentOffset(const int __fd)
+{
+    off_t fileOffset = 0L;
+    if ((fileOffset = lseek(__fd, 0, SEEK_CUR)) == -1) 
+    { 
+        errExit("getFileCurrentOffset() -> lseek(__fd, 0, SEEK_CUR)"); 
+    }
+
+    return fileOffset;
 }
