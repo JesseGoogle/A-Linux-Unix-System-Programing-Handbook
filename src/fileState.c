@@ -100,30 +100,27 @@ void getFileAccessFlag(const char * __filePath, const int __checkedFd, const int
 {
     if (!__filePath || (*__filePath) == '\0') { fatal("getFileAccessFlag() -> Empty __filePath!"); }
 
-    char fileName[128] = {0};
-    ssize_t writeReturnVal = 0;
-    sprintf(fileName, "File: [%s] fd = [%d], access flag is:\n", __filePath, __checkedFd);
+    char fileAccessFlag[128] = {0};
+    sprintf(fileAccessFlag, "File: [%s] fd = [%d], access flag is: ", __filePath, __checkedFd);
 
-    if (write(__outputFd, fileName, strlen(fileName)) == -1)
+    if (IS_READ_ONLY(__checkedFd))  { strcat(fileAccessFlag, "<Read-only> "); }
+    if (IS_WRITE_ONLY(__checkedFd)) { strcat(fileAccessFlag, "<Write-only> "); }
+    if (IS_READ_WRITE(__checkedFd)) { strcat(fileAccessFlag, "<Read-Write> "); }
+    if (IS_APPEND(__checkedFd))     { strcat(fileAccessFlag, "<Append> "); }
+    if (IS_CREATE(__checkedFd))     { strcat(fileAccessFlag, "<Create> "); }
+    if (IS_EXCL(__checkedFd))       { strcat(fileAccessFlag, "<Excl> "); }
+    if (IS_NOCTTY(__checkedFd))     { strcat(fileAccessFlag, "<Noctty> "); }
+    if (IS_TRUNC(__checkedFd))      { strcat(fileAccessFlag, "<Trunc> "); }
+    if (IS_ASYNC(__checkedFd))      { strcat(fileAccessFlag, "<Async> "); }
+    if (IS_NONBLOCK(__checkedFd))   { strcat(fileAccessFlag, "<Non-block> "); }
+    if (IS_SYNC(__checkedFd))       { strcat(fileAccessFlag, "<Sync> "); }
+
+    strcat(fileAccessFlag, "\n");
+
+    if (write(__outputFd, fileAccessFlag, strlen(fileAccessFlag)) == -1)
     {
-        errExit("getFileAccessFlag() -> write(__outputFd, fileName, strlen(fileName))");
+        errExit("getFileAccessFlag() -> write(__outputFd, fileAccessFlag, strlen(fileAccessFlag)");
     }
-
-    if (IS_READ_ONLY(__checkedFd))  { writeReturnVal = write(__outputFd, "<read-only> ", 13); }
-    if (IS_WRITE_ONLY(__checkedFd)) { writeReturnVal = write(__outputFd, "<write-only> ", 14); }
-    if (IS_READ_WRITE(__checkedFd)) { writeReturnVal = write(__outputFd, "<read-write> ", 14); }
-    if (IS_APPEND(__checkedFd))     { writeReturnVal = write(__outputFd, "<append> ", 10); }
-    if (IS_CREATE(__checkedFd))     { writeReturnVal = write(__outputFd, "<create> ", 10); }
-    if (IS_EXCL(__checkedFd))       { writeReturnVal = write(__outputFd, "<excl> ", 8); }
-    if (IS_NOCTTY(__checkedFd))     { writeReturnVal = write(__outputFd, "<noctty> ", 10); }
-    if (IS_TRUNC(__checkedFd))      { writeReturnVal = write(__outputFd, "<trunc> ", 9); }
-    if (IS_ASYNC(__checkedFd))      { writeReturnVal = write(__outputFd, "<async> ", 9); }
-    if (IS_NONBLOCK(__checkedFd))   { writeReturnVal = write(__outputFd, "<non-block> ", 13); }
-    if (IS_SYNC(__checkedFd))       { writeReturnVal = write(__outputFd, "<sync> ", 8); }
-
-    writeReturnVal = write(__outputFd, "\n", 1);
-
-    if (writeReturnVal == -1) { errExit("write() out put file flag failed..."); }
 }
 
 void modifyFileFlag(const int __fd, enum FlagSetting __flagSet, const int __flag)
