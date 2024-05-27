@@ -3,7 +3,7 @@
 #include "../../../include/tlpi_hdr.h"
 
 /**
- * 一个简单的, 测试跳转至一个已经返回来的函数的示例, 程序结果为:
+ * 一个简单的, 测试跳转至一个已经返回的函数的示例, 程序结果为:
  * 
  * Call function f1(), set jump position.
  * f1() -> array = 1 2 3 4 5 
