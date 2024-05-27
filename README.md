@@ -2,6 +2,6 @@
 
 ![cover](https://cdn.ptpress.cn/pubcloud/bookImg/null/20240517789E71E2.jpg)
 
-目前以及学完第五章，正在完成第五章的习题。
+目前以及学完第六章，正在完成第六章的习题。
 
-## Latest update time: 2024.5.21
+## Latest update time: 2024.5.27
