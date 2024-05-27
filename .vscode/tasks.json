@@ -8,9 +8,11 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "/home/jesse/桌面/linuxSystemProgram/lib/tlpi_hdr",
+                "/home/jesse/桌面/linuxSystemProgram/lib/tlpi_hdr.so",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-O3",
+                "-Wall"
             ],
             "options": {
                 "cwd": "${fileDirname}"

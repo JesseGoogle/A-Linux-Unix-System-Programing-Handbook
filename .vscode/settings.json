@@ -34,7 +34,9 @@
         "stdio.h": "c",
         "stdlib.h": "c",
         "stdarg.h": "c",
-        "fcntl": "c"
+        "fcntl": "c",
+        "limits.h": "c",
+        "setjmp.h": "c"
     },
     "cmake.configureOnOpen": true
 }
