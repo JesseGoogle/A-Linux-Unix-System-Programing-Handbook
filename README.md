@@ -2,6 +2,6 @@
 
 ![cover](https://cdn.ptpress.cn/pubcloud/bookImg/null/20240517789E71E2.jpg)
 
-目前以及学完第六章，已经完成第六章的习题。
+目前正在学习第七章, (准确来说是复习)
 
 ## Latest update time: 2024.5.27
