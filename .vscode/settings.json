@@ -37,7 +37,12 @@
         "fcntl": "c",
         "limits.h": "c",
         "setjmp.h": "c",
-        "myenv.h": "c"
+        "myenv.h": "c",
+        "cstdint": "c",
+        "math.h": "c",
+        "cmath": "c",
+        "requires_hosted.h": "c",
+        "cpp_type_traits.h": "c"
     },
     "cmake.configureOnOpen": true
 }
