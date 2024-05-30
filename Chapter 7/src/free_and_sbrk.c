@@ -55,7 +55,7 @@ int main(int argc, char const *argv[])
 
     freeStep = (argc > 3) ? (getInt(argv[3], GN_GT_0, "<free-step>")) : 1;
     freeMin  = (argc > 4) ? (getInt(argv[4], GN_GT_0, "min")) : 1;
-    freeMax  = (argc > 5) ? (getInt(argv[5], GN_GT_0, "max")) : MAX_ALLOCS;
+    freeMax  = (argc > 5) ? (getInt(argv[5], GN_GT_0, "max")) : numAllocs;
 
     if (numAllocs > MAX_ALLOCS)     // 检查 numAllocs 参数, 不得超过 MAX_ALLOCS
     { 
