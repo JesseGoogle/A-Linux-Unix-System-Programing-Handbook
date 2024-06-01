@@ -42,7 +42,10 @@
         "math.h": "c",
         "cmath": "c",
         "requires_hosted.h": "c",
-        "cpp_type_traits.h": "c"
+        "cpp_type_traits.h": "c",
+        "grp.h": "c",
+        "pwd.h": "c",
+        "ugid_functions.h": "c"
     },
     "cmake.configureOnOpen": true
 }
