@@ -2,6 +2,6 @@
 
 ![cover](https://cdn.ptpress.cn/pubcloud/bookImg/null/20240517789E71E2.jpg)
 
-已经学完第七章, 并完成了第七章的练习题
+正在学习第十章: 时间
 
-## Latest update time: 2024.5.30
+## Latest update time: 2024.6.5
