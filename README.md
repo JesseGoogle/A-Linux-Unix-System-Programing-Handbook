@@ -4,4 +4,4 @@
 
 正在学习第十章: 时间
 
-## Latest update time: 2024.6.5
+## Latest update time: 2024.6.6
