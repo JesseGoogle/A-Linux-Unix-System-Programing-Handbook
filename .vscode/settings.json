@@ -46,7 +46,9 @@
         "grp.h": "c",
         "pwd.h": "c",
         "ugid_functions.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "stdbool.h": "c"
     },
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "C_Cpp.errorSquiggles": "disabled"
 }
