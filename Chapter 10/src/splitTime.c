@@ -1,10 +1,6 @@
 #include <sys/unistd.h>
 
-#include <time.h>
-#include <stdlib.h>
-#include <stdio.h>
-
-#include "../../include/tlpi_hdr.h"
+#include "../include/timeFuncAssistant.h"
 
 /**
  * 本程序旨在说明 gmtime() 和 localtime() 函数的区别和用法
@@ -16,15 +12,6 @@
  * 两个函数都传入一个时间戳 (通常由 time() 函数获取), 
  * 然后解析时间戳后将结果分配在一个静态分配的结构体 tm 中, tm 结构体的示例如下:
 */
-
-
-#define BEGIN_YEAR          1900
-#define ONE_DAY_HOURS       24   
-
-const char *Weeks [] = {
-                            "Monday", "Tuesday", "Wednesday", 
-                            "Thursday", "Friday", "Saturday", "Sunday"
-                    };
 
 #if FALSE
 /* ISO C `broken-down time' structure.  */
@@ -50,49 +37,45 @@ struct tm
 };
 #endif
 
-static inline int getYears(const int __tmYear) { return BEGIN_YEAR + __tmYear; }
-
-void showtmStruct(const struct tm * __timeInfo);
-
 int main(int argc, char const *argv[])
 {
-    system("clear");
+	while (TRUE)
+  	{
+		system("clear");
 
-    time_t curTimeStamp = time(NULL);
-    struct tm * localTimeInfo = localtime(&curTimeStamp);
+    	time_t curTimeStamp = time(NULL);
+      	struct tm * localTimeInfo = localtime(&curTimeStamp);
 
-    /**
-     * 由于 gmtime() 和 localtime() 都是往同一个静态结构体写入, 
-     * 这在多线程或者并发的环境下会造成数据竞争, 所以还需要两个非重入版本的函数,
-     * gmtime_r() 函数就是其一, 用法如下
-    */
-    struct tm gmTimeInfo = {0};
-    gmtime_r(&curTimeStamp, &gmTimeInfo);
+		if (!localTimeInfo) { errExit("main() -> localtime(&curTimeStamp): "); }
 
-    puts("Local time: ");
-    showtmStruct(localTimeInfo);
+		/**
+		 * 由于 gmtime() 和 localtime() 都是往同一个静态结构体写入, 
+		 * 这在多线程或者并发的环境下会造成数据竞争, 
+		 * 所以还需要两个非重入版本的函数, gmtime_r() 函数就是其一, 需要自行创建一个 tm 结构体实例,
+		 * 用法如下:
+		 */
+		struct tm gmTimeInfo = {0};
+		gmtime_r(&curTimeStamp, &gmTimeInfo);
 
-    printSplitLine(45, '-', STDOUT_FILENO); puts("");
+		puts("Local time: ");
+		showtmStruct(localTimeInfo);
 
-    puts("Greenwich mean time: ");
-    showtmStruct(&gmTimeInfo);
-    
+		printSplitLine(45, '-', STDOUT_FILENO); puts("");
+
+		puts("Greenwich mean time: ");
+		showtmStruct(&gmTimeInfo);
+		
+		printSplitLine(45, '-', STDOUT_FILENO); puts("");
+
+		/**
+		 * mktime() 函数用于把 tm 结构体转化成时间戳的形式
+		*/
+		printf(
+				"Local time stamp = %ld, GM time stamp = %ld\n", 
+				mktime(localTimeInfo), mktime(&gmTimeInfo)
+			);
+
+		sleep(1);
+  	}
     return EXIT_SUCCESS;
-}
-
-void showtmStruct(const struct tm * __timeInfo)
-{
-    if (!__timeInfo) { errExit("showtmStruct(__timeInfo): NULL argument __timeInfo."); }
-
-    printf(
-            "[%d.%d.%d %d:%d:%d] %s\n",
-            getYears(__timeInfo->tm_year), __timeInfo->tm_mon, __timeInfo->tm_mday,
-            __timeInfo->tm_hour, __timeInfo->tm_min, __timeInfo->tm_sec,
-            Weeks[__timeInfo->tm_wday - 1]
-        );
-
-    printf(
-            "No.%d days of %d, time zone: %s.\n", 
-            __timeInfo->tm_yday, getYears(__timeInfo->tm_year), __timeInfo->tm_zone
-        );
 }
