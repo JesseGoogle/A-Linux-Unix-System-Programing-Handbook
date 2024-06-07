@@ -2,7 +2,6 @@
 
 #include <time.h>
 
-#include "../../include/tlpi_hdr.h"
 #include "../include/timeFuncAssistant.h"
 
 int main(int argc, char const *argv[])
