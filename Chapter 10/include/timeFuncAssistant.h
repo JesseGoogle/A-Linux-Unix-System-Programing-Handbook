@@ -12,6 +12,11 @@ const char * Weeks [] = {
                             "Thursday", "Friday", "Saturday", "Sunday"
                     };
 
+const char * Month[] = {
+                            "January", "February", "March", "April", "May","June", 
+                            "July", "August", "September", "October", "November", "December"
+                };
+
 static inline int getYears(const int __tmYear) { return BEGIN_YEAR + __tmYear; }
 
 /**
