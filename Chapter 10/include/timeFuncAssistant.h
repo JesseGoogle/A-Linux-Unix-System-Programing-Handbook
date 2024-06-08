@@ -33,3 +33,10 @@ void showtmStruct(const struct tm * __timeInfo);
  * @return 经 strftime() 函数处理的字符串
 */
 char * getCurrentTime(const char * __format);
+
+/**
+ * @brief 获取 CPU 时间 (用户, 内核)
+ * 
+ * @param __msg 对此次函数调用的描述
+*/
+void displayProcessTime(const char * __msg);
