@@ -47,7 +47,9 @@
         "pwd.h": "c",
         "ugid_functions.h": "c",
         "time.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "timefuncassistant.h": "c",
+        "times.h": "c"
     },
     "cmake.configureOnOpen": true,
     "C_Cpp.errorSquiggles": "enabled"
