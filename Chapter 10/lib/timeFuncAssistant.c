@@ -1,4 +1,5 @@
 #include "../include/timeFuncAssistant.h"
+#include <sys/times.h>
 
 void showtmStruct(const struct tm * __timeInfo)
 {
@@ -56,4 +57,61 @@ char * getCurrentTime(const char * __format)
     bufferLen = strftime(timeStrBuffer, TIME_STRING_BUFF_SIZE, __format, locatTimeInfo); 
 
     return (bufferLen == 0) ? NULL : timeStrBuffer;
+}
+
+void displayProcessTime(const char * __msg)
+{
+    /*
+        tms 结构体描述了一个进程的时间相关信息, 
+        结构体内容如下:
+    */
+
+#if FALSE
+    /* 结构体描述了进程和该进程的子进程所用的 CPU 时间 */
+    struct tms
+    {
+        clock_t tms_utime;		/* 用户态所用的 CPU 时间  */
+        clock_t tms_stime;		/* 内核态 (一般是系统调用) 所用的 CPU 时间  */
+
+        clock_t tms_cutime;		/* User CPU time of dead children.  */
+        clock_t tms_cstime;		/* System CPU time of dead children.  */
+    };
+#endif
+
+    struct tms processTime = {0};
+    clock_t clockTime = 0L;
+    static long int clockTicks = 0L;
+
+    if (__msg != NULL) { printf("%s\n", __msg); }
+    
+    if (clockTicks == 0) {
+
+        /*
+            调用 sysconf 传入 _SC_CLK_TCK 宏来获得每秒包含的时钟计时单元数 (系统的时间频率),
+            除以 clock_t 转换为秒
+        */
+        clockTicks = sysconf(_SC_CLK_TCK);
+        if (clockTicks == -1) { errExit("sysconf(_SC_CLK_TCK)"); }
+    }
+
+    /*
+        clock() 返回当前进程调用所使用的总 CPU 时间 (用户 + 内核)
+    */
+    clockTime = clock();
+    if (clockTime == -1) { errExit("clock()"); }
+
+    printf(
+            "        clock() returns: %ld clock-per-sec (%.4f secs)\n",
+            (long int)clockTime, (double)clockTime / CLOCKS_PER_SEC
+        );
+
+    if (times(&processTime) == -1) {
+        errExit("times(&processTime)");
+    }
+
+    printf(
+            "        times() yields: User CPU = %.4f secs; System CPU = %.4f secs\n",
+            (double) processTime.tms_utime / clockTicks,
+            (double) processTime.tms_stime / clockTicks
+        );
 }
